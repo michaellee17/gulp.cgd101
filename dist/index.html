@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="dist/css/style.css">
+<title>sass</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<title>首頁專題</title>
+</head>
+
+<body>
+    <header>
+    <div class="login"></div>
+    <nav>
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+    </nav>
+</header>
+    <div class="wrapper index">
+        <section class="w100"></section>
+        <div class="w1200"></div>
+        <h1>
+            title
+        </h1>
+        <a href="#">a連結</a>
+        <div class="btn_large">
+            按鈕
+        </div>
+        <div class="btn_default mv">
+            按鈕
+        </div>
+        <div class="btn_small">
+            按鈕
+        </div>
+
+    </div>
+    <div class="r">qweqeq</div>
+    <div class="footer"></div>
+    <script>
+        gsap.to('.mv', {
+            x: 200,
+            y: -100,
+            duration: 1,
+            rotation: 360,
+        })
+    </script>
+
+</body>
+
+</html>
